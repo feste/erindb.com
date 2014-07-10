@@ -1,0 +1,35 @@
+<html>
+<head>
+  <title>VIM TRIX (Julie)</title>
+  <link rel="stylesheet" type="text/css" href="erin_style.css">
+</head>
+<body>
+<h1>VIM TRIX (Julie)</h1>
+<p>Install <a href="https://github.com/tpope/vim-pathogen">Pathogen</a> to install vim plugins easily.</p>
+<h2>good plugins</h2>
+<ul>
+<li><a href="https://github.com/tpope/vim-sleuth">Sleuth</a>: detects tabbing in file, and sets your settings to that</li>
+<li><a href="">Syntastic</a>: Syntax checking in vim</li>
+<li><a href="">nerd commenter</a>: comment and uncomment code</li>
+<li><a href="">luna vim</a>: pretty color scheme, installable thru pathogen :)</li>
+<li><a href="">sensible</a>: nice vim defaults to have</li>
+</ul>
+<h2>~/.vimrc</h2>
+<pre><code>
+" indentation guides
+" for tabs
+set list listchars=tab:‧\ ,trail:·,extends:»,precedes:«,nbsp:×
+" otherwise
+let g:indentLine_char = '│'
+
+set tw=80 " limit the length of lines to ~80 characters
+</code></pre>
+
+Remember: visual select, then
+
+<ul>
+<li><code>=</code> will indent your code</li>
+<li><code>gq</code> will split your codes into lines as long as the tw property (text wrap)</li>
+</ul>
+</body>
+</html>
