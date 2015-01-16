@@ -1,4 +1,6 @@
-# Lists #
+---
+layout: default
+---
 
 ## Media ##
 

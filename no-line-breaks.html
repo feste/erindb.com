@@ -1,0 +1,49 @@
+---
+title: No Line Breaks!
+layout: default
+---
+
+<script src="jquery-1.11.1.min.js "></script>
+
+<html>
+
+<p>Enter your text below, click the "munge" button, and I'll try to remove the spurious line breaks.</p>
+
+<textarea id="input" rows="10" cols="100"></textarea>
+
+<button id="munge" onclick="munge()">munge</button>
+
+<p>Your cleaned-up text should show up below:</p>
+
+<textarea id="output" rows="10" cols="100"></textarea>
+
+</html>
+
+<script>
+function last(o) {
+	return(o[o.length -1]);
+}
+
+function munge() {
+	var text = $("#input").val();
+	lines = text.split(/\r?\n/);
+	new_string = "";
+	for (var i=0; i<lines.length; i++) {
+		var line = lines[i];
+		line = line.replace(String.fromCharCode(12), "fi");
+		line = line.replace(String.fromCharCode(14), "ffi");
+		line = line.replace("|", " — ");
+		line = line.replace("  ", " ");
+		if (line.length < 3 & last(last(line)) != ".") {
+			new_string += line + "\n";
+		} else if (last(last(line)) == "-") {
+			new_string += line.slice(0, line.length -1);
+		} else if (i == lines.length -1) {
+			new_string += line;
+		} else {
+			new_string += line + " ";
+		}
+	}
+	$("#output").val(new_string);
+}
+</script>

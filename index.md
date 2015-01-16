@@ -1,5 +1,9 @@
-<title>Erin</title>
+---
+layout: default
+---
 
-Hello!! This website is under construction. :)
+Hi!
 
-![juggling is awesome!](juggling.svg)
+This site is under construction. :)
+
+![juggling.png](juggling.png)

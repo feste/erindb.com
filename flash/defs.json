@@ -1,0 +1,1094 @@
+var defs = [
+  [
+    "harbinger",
+    "message/warning/foretelling"
+  ],
+  [
+    "diffident",
+    "timid and lacking confidence"
+  ],
+  [
+    "egoistic",
+    "concerned with one's own needs"
+  ],
+  [
+    "coda",
+    "end"
+  ],
+  [
+    "arch",
+    "mischievous / arch-nemesis"
+  ],
+  [
+    "galvanizing",
+    "shocking- thrilling"
+  ],
+  [
+    "dirge",
+    "a solemn funerial hymn or poem"
+  ],
+  [
+    "fecund",
+    "fruitful"
+  ],
+  [
+    "disaffection",
+    "alienation and discontent"
+  ],
+  [
+    "baneful",
+    "harmful"
+  ],
+  [
+    "dissimulation",
+    "dissembling"
+  ],
+  [
+    "profligate",
+    "wastefuly spending"
+  ],
+  [
+    "sangfroid",
+    "composed in the face of danger"
+  ],
+  [
+    "nadir",
+    "something has reached its nadir when it's reached its low point"
+  ],
+  [
+    "equanimity",
+    "calmness"
+  ],
+  [
+    "dissolute",
+    "renounce or deny"
+  ],
+  [
+    "decry",
+    "denounce"
+  ],
+  [
+    "gainsay",
+    "deny"
+  ],
+  [
+    "appellant",
+    "one who appeals (as in court)"
+  ],
+  [
+    "dross",
+    "waste/impurity"
+  ],
+  [
+    "censorious",
+    "critical"
+  ],
+  [
+    "breach",
+    "a break or rupture"
+  ],
+  [
+    "analeptic",
+    "stimulant"
+  ],
+  [
+    "verdant",
+    "green (including the inexperienced version of the word)"
+  ],
+  [
+    "eremitic",
+    "hermit-like"
+  ],
+  [
+    "forbear",
+    "hold back from- give up"
+  ],
+  [
+    "derogate",
+    "go away- take away- or belittle"
+  ],
+  [
+    "antediluvian",
+    "old"
+  ],
+  [
+    "aphorism",
+    "sound-byte"
+  ],
+  [
+    "assay",
+    "try"
+  ],
+  [
+    "trenchant",
+    "cutting"
+  ],
+  [
+    "eulogy",
+    "praise- usually at a funeral"
+  ],
+  [
+    "facetious",
+    "joking"
+  ],
+  [
+    "adumbrate",
+    "foreshadow/overshadow"
+  ],
+  [
+    "flagitious",
+    "brutal or cruel"
+  ],
+  [
+    "hinterland",
+    "land just beyond here- often nearby countryside"
+  ],
+  [
+    "hale",
+    "health(y) or to drag someone or something"
+  ],
+  [
+    "factotum",
+    "jack of all trades"
+  ],
+  [
+    "aleatory",
+    "dependent on the roll of the dice"
+  ],
+  [
+    "ebullient",
+    "bubbling with excitement"
+  ],
+  [
+    "celerity",
+    "speed"
+  ],
+  [
+    "risible",
+    "funny"
+  ],
+  [
+    "apportion",
+    "divide"
+  ],
+  [
+    "bucolic",
+    "countryside"
+  ],
+  [
+    "turpitude",
+    "moral turpitude: wrongness or depravity"
+  ],
+  [
+    "extenuate",
+    "lessen"
+  ],
+  [
+    "defame",
+    "damage the reputation of"
+  ],
+  [
+    "denouement",
+    "final resolution"
+  ],
+  [
+    "feckless",
+    "careless"
+  ],
+  [
+    "debacle",
+    "a sudden- embarrassing collapse"
+  ],
+  [
+    "turgid",
+    "excessively grandiloquent"
+  ],
+  [
+    "burgeon",
+    "grow"
+  ],
+  [
+    "dogmatic",
+    "asserting things based on a priori beliefs rather than evidence"
+  ],
+  [
+    "baroque",
+    "bizarre and complex"
+  ],
+  [
+    "doctrinaire",
+    "inflexibly attached to a theory"
+  ],
+  [
+    "guileless",
+    "honest but naive"
+  ],
+  [
+    "doyenne",
+    "oldest female in a group"
+  ],
+  [
+    "anomie",
+    "moral decay"
+  ],
+  [
+    "hallmark",
+    "distinguishing characteristic (esp. that this is legit)"
+  ],
+  [
+    "ebb",
+    "fall away- decline"
+  ],
+  [
+    "contrapuntal",
+    "using contrasting elements in art"
+  ],
+  [
+    "contretemps",
+    "inopportune or embarrassing hitch"
+  ],
+  [
+    "capitulatory",
+    "surrendering"
+  ],
+  [
+    "compendious",
+    "succinctly summarizing"
+  ],
+  [
+    "corroborate",
+    "strengthen with evidence"
+  ],
+  [
+    "castigate",
+    "criticize or punish severely"
+  ],
+  [
+    "conversance",
+    "familiarity"
+  ],
+  [
+    "banal",
+    "common and boring"
+  ],
+  [
+    "asperity",
+    "harshness"
+  ],
+  [
+    "ersatz",
+    "fake"
+  ],
+  [
+    "dialectical",
+    "logical arguments"
+  ],
+  [
+    "efficacious",
+    "produces the desired effect"
+  ],
+  [
+    "fettle",
+    "health/condition"
+  ],
+  [
+    "clandestine",
+    "hidden- secret"
+  ],
+  [
+    "effectual",
+    "works- gets the job done"
+  ],
+  [
+    "bellicose",
+    "warlike"
+  ],
+  [
+    "hodge-podge",
+    "mixture of dissimilar ingredients"
+  ],
+  [
+    "tantamount",
+    "it amounts to this"
+  ],
+  [
+    "High-handed",
+    "arbitrary- overbearing authority/power"
+  ],
+  [
+    "arcane",
+    "secret knowledge"
+  ],
+  [
+    "contraband",
+    "smuggled"
+  ],
+  [
+    "anodyne",
+    "soothing"
+  ],
+  [
+    "ethos",
+    "character"
+  ],
+  [
+    "divagate",
+    "wander- stray- or ramble"
+  ],
+  [
+    "rectitude",
+    "moral uprightness"
+  ],
+  [
+    "demarcate",
+    "draw limits of- delimit"
+  ],
+  [
+    "evanescent",
+    "vanishing"
+  ],
+  [
+    "jejune",
+    "lacking nutrition / naïve"
+  ],
+  [
+    "faux-naif",
+    "affectedly naive"
+  ],
+  [
+    "cosset",
+    "pampered"
+  ],
+  [
+    "denomination",
+    "name or designation for class or group"
+  ],
+  [
+    "disclaim",
+    "renounce or deny"
+  ],
+  [
+    "censure",
+    "criticism- reprimand"
+  ],
+  [
+    "boosterism",
+    "promotion of an organization to improve public opinion"
+  ],
+  [
+    "fulmination",
+    "detonation of a verbal or physical explosion"
+  ],
+  [
+    "apposed",
+    "placed next to each other"
+  ],
+  [
+    "balkanize",
+    "devide a territory into small- hostile states"
+  ],
+  [
+    "cornerstone",
+    "indespensible basis"
+  ],
+  [
+    "cleave",
+    "cut"
+  ],
+  [
+    "histrionics",
+    "theatrics (often exaggerated display of emotion for sympathy)"
+  ],
+  [
+    "hackneyed",
+    "over familiar"
+  ],
+  [
+    "fallacious",
+    "false- based on a fallacy- deceptive"
+  ],
+  [
+    "hortatory",
+    "trying to make someone do something"
+  ],
+  [
+    "blithe",
+    "happy"
+  ],
+  [
+    "costive",
+    "stingy/constipated"
+  ],
+  [
+    "equable",
+    "steady"
+  ],
+  [
+    "depredate",
+    "plunder"
+  ],
+  [
+    "boondoggle",
+    "unnecessary- wasteful project"
+  ],
+  [
+    "crack (adj)",
+    "excellent (a crack shot)"
+  ],
+  [
+    "dilettante",
+    "amateur"
+  ],
+  [
+    "excoriate",
+    "chafe- flay- denounce- chew somebody out"
+  ],
+  [
+    "cabal",
+    "conspiracy- conspire"
+  ],
+  [
+    "belletristic",
+    "prioritizing prettiness"
+  ],
+  [
+    "coltish",
+    "playful & frisky"
+  ],
+  [
+    "emblematic",
+    "symbolic"
+  ],
+  [
+    "gadfly",
+    "goading nuisance"
+  ],
+  [
+    "fatuous",
+    "idiotic- vacant"
+  ],
+  [
+    "couched in",
+    "expressed in"
+  ],
+  [
+    "extirpate",
+    "take out"
+  ],
+  [
+    "cleave to",
+    "stay close to"
+  ],
+  [
+    "flagging",
+    "weakening"
+  ],
+  [
+    "hoi-polloi",
+    "the common people- the masses"
+  ],
+  [
+    "endemic",
+    "peculiarly from here- native to a confined region"
+  ],
+  [
+    "ape",
+    "mimic"
+  ],
+  [
+    "disinterested",
+    "does not stand to lose or gain from a situation or decision"
+  ],
+  [
+    "modish",
+    "fashionable"
+  ],
+  [
+    "hapless",
+    "unlucky"
+  ],
+  [
+    "chary",
+    "cautious- frugal- “a little chary of giving strangers an opportunity for conversation”"
+  ],
+  [
+    "erstwhile",
+    "in the past"
+  ],
+  [
+    "coalesce",
+    "grow together- fuse"
+  ],
+  [
+    "probity",
+    "virtuous integrity"
+  ],
+  [
+    "assiduousness",
+    "diligence"
+  ],
+  [
+    "anathema",
+    "curse"
+  ],
+  [
+    "concede",
+    "yield or admit"
+  ],
+  [
+    "complaisant",
+    "wanting to please"
+  ],
+  [
+    "providential",
+    "as if by divine intervention"
+  ],
+  [
+    "confabulation",
+    "a chat. or a memory that didn't really happen."
+  ],
+  [
+    "aver",
+    "say is true"
+  ],
+  [
+    "calumny",
+    "false accusation of a crime"
+  ],
+  [
+    "condone",
+    "forgive"
+  ],
+  [
+    "genesis",
+    "origin"
+  ],
+  [
+    "today",
+    "furnace- confluence of powerful forces- trying experience that shapes you"
+  ],
+  [
+    "exculpate",
+    "clear of guilt"
+  ],
+  [
+    "cosmopolitan",
+    "the world is my city"
+  ],
+  [
+    "bombastic",
+    "pompous and overly wordy"
+  ],
+  [
+    "chagrin",
+    "distress"
+  ],
+  [
+    "fastidious",
+    "meticulous or hard to please"
+  ],
+  [
+    "homily",
+    "sermon or inspirational platitude"
+  ],
+  [
+    "dessicated",
+    "thoroughly dried out"
+  ],
+  [
+    "appellations",
+    "titles"
+  ],
+  [
+    "full-bore",
+    "thorough- complete"
+  ],
+  [
+    "gauche",
+    "tactless"
+  ],
+  [
+    "disingenuous",
+    "fake and deceptive- esp. pretending to be dumb"
+  ],
+  [
+    "fissile",
+    "able to be split"
+  ],
+  [
+    "arrant",
+    "complete"
+  ],
+  [
+    "ballast",
+    "something for stability"
+  ],
+  [
+    "bedizen",
+    "to deck out gaudily"
+  ],
+  [
+    "espouse",
+    "give loyalty to- adopt"
+  ],
+  [
+    "dynamo",
+    "energetic person or generator"
+  ],
+  [
+    "indolence",
+    "laziness"
+  ],
+  [
+    "chauvinism",
+    "fanatical patriotism (or in general thinking your group is way better than other groups)"
+  ],
+  [
+    "ascetic",
+    "denying pleasures"
+  ],
+  [
+    "efface",
+    "erase or make inconspicuous"
+  ],
+  [
+    "defeasible",
+    "capable of being made null or void"
+  ],
+  [
+    "simpatico",
+    "compatible- similar temperment"
+  ],
+  [
+    "buttress",
+    "support"
+  ],
+  [
+    "aspersion",
+    "attack on reputation"
+  ],
+  [
+    "arcadian",
+    "nostalgicly rustic"
+  ],
+  [
+    "desuetude",
+    "state of disuse"
+  ],
+  [
+    "dearth",
+    "scarcity"
+  ],
+  [
+    "autodidact",
+    "self-taught person"
+  ],
+  [
+    "enervate",
+    "weaken or unnerve"
+  ],
+  [
+    "cursory",
+    "hasty and superficial"
+  ],
+  [
+    "collude",
+    "conspire"
+  ],
+  [
+    "intrepid",
+    "fearless- bold- brave"
+  ],
+  [
+    "maudlin",
+    "drunk- crying- or sentimental"
+  ],
+  [
+    "dionysian",
+    "wild- irrational- and unbridled"
+  ],
+  [
+    "sanguine",
+    "warm- happy- healthy"
+  ],
+  [
+    "belie",
+    "show to be false / misrepresent"
+  ],
+  [
+    "ecumenical",
+    "universal (@least within christianity)"
+  ],
+  [
+    "excogitate",
+    "think something over carefully"
+  ],
+  [
+    "fictive",
+    "fancifal or counterfeit"
+  ],
+  [
+    "careen",
+    "tilt or sway (while in motion or not)"
+  ],
+  [
+    "exegesis",
+    "critical explanation or analysis"
+  ],
+  [
+    "irascible",
+    "cranky and irritible"
+  ],
+  [
+    "pan",
+    "criticize harshly"
+  ],
+  [
+    "hermeneutic",
+    "having to do with interpretation and explanation"
+  ],
+  [
+    "inured",
+    "habituated"
+  ],
+  [
+    "paramount",
+    "important- highest"
+  ],
+  [
+    "claptrap",
+    "to make people clap- often empty rhetoric"
+  ],
+  [
+    "inundate",
+    "cover / flood"
+  ],
+  [
+    "callow",
+    "immature"
+  ],
+  [
+    "austere",
+    "severe"
+  ],
+  [
+    "dyed-in-the-wool",
+    "having strong- unchangeable ideas"
+  ],
+  [
+    "fetid",
+    "smells gross"
+  ],
+  [
+    "fascism",
+    "oppressive- dictatorial control"
+  ],
+  [
+    "asseveration",
+    "emphatic assertion"
+  ],
+  [
+    "hegemony",
+    "political dominance"
+  ],
+  [
+    "denigrate",
+    "speeak ill of"
+  ],
+  [
+    "dissipation",
+    "hemoraging money"
+  ],
+  [
+    "flout",
+    "openly disregard (a rule or convention)"
+  ],
+  [
+    "gregarious",
+    "social"
+  ],
+  [
+    "foible",
+    "a failing or weakness"
+  ],
+  [
+    "extort",
+    "coerce by force or intimidation"
+  ],
+  [
+    "earmark",
+    "identifying mark"
+  ],
+  [
+    "apposite",
+    "apt"
+  ],
+  [
+    "covey",
+    "a small group of people"
+  ],
+  [
+    "facile",
+    "easy. too easy."
+  ],
+  [
+    "approbation",
+    "approval"
+  ],
+  [
+    "avant-garde",
+    "advance-guard- innovative"
+  ],
+  [
+    "draconian",
+    "strict and harsh"
+  ],
+  [
+    "canonization",
+    "saintification"
+  ],
+  [
+    "consanguineous",
+    "blood related"
+  ],
+  [
+    "floe",
+    "a sheet of floating ice"
+  ],
+  [
+    "idealogues",
+    "ppl who believe stuff strongly and impractically"
+  ],
+  [
+    "ignominious",
+    "shameful"
+  ],
+  [
+    "impartial",
+    "treating each side equally and justly"
+  ],
+  [
+    "imperil",
+    "endanger"
+  ],
+  [
+    "impious",
+    "not pious"
+  ],
+  [
+    "implacability",
+    "can't be stopped or satisfied"
+  ],
+  [
+    "importunate",
+    "asking and pleading to the point of annoyance"
+  ],
+  [
+    "improbity",
+    "wickedness or dishonesty"
+  ],
+  [
+    "imputation",
+    "filling in gaps in the data"
+  ],
+  [
+    "inane",
+    "silly stupid"
+  ],
+  [
+    "inchoate",
+    "just beginning"
+  ],
+  [
+    "incorrigible",
+    "not correctable"
+  ],
+  [
+    "indefatigable",
+    "won't get tired"
+  ],
+  [
+    "indemnify",
+    "compensate or secure against something"
+  ],
+  [
+    "indict",
+    "accuse"
+  ],
+  [
+    "indolent",
+    "lazy"
+  ],
+  [
+    "ingenuous",
+    "innocent"
+  ],
+  [
+    "inimical",
+    "unfriendly or hostile"
+  ],
+  [
+    "insiduous",
+    "sneakily or really slowly ambushing"
+  ],
+  [
+    "insipid",
+    "flavorless"
+  ],
+  [
+    "insolvent",
+    "unable to pay debts owed"
+  ],
+  [
+    "insurgent",
+    "someone who rebels"
+  ],
+  [
+    "intransigent",
+    "if I agree with you then we'll both be wrong!"
+  ],
+  [
+    "intrepid",
+    "fearless- bold- brave"
+  ],
+  [
+    "inundate",
+    "overwhelm or flood"
+  ],
+  [
+    "investiture",
+    "formally investing a person with honors or rank"
+  ],
+  [
+    "irascible",
+    "angerable"
+  ],
+  [
+    "irredentist",
+    "give us our territories back!"
+  ],
+  [
+    "jaundiced",
+    "envy distaste or hostility"
+  ],
+  [
+    "jejune",
+    "naïve or simplistic or superficial or uninteresting"
+  ],
+  [
+    "jingoistic",
+    "excessive nationalism with guns"
+  ],
+  [
+    "jouissance",
+    "orgasm or enjoyment"
+  ],
+  [
+    "jurisprudence",
+    "study of law"
+  ],
+  [
+    "labile",
+    "easily altered or emotionally unstable"
+  ],
+  [
+    "laconic",
+    "doesn't say much"
+  ],
+  [
+    "lacunae",
+    "a gap or unfilled interval"
+  ],
+  [
+    "lassitude",
+    "weariness"
+  ],
+  [
+    "leery",
+    "cautious for good reasons"
+  ],
+  [
+    "leitmotifs",
+    "recurrent theme associated with a person or idea or situation"
+  ],
+  [
+    "limpid",
+    "completely clear and transparent"
+  ],
+  [
+    "lissome",
+    "lithesome"
+  ],
+  [
+    "literati",
+    "intellectuals"
+  ],
+  [
+    "loaf",
+    "aimlessly wander"
+  ],
+  [
+    "lobbying",
+    "calling around to tell people to believe in something political"
+  ],
+  [
+    "lubricious",
+    "lubed up / offensively sexual"
+  ],
+  [
+    "lummox",
+    "clumsy oaf"
+  ],
+  [
+    "lurid",
+    "unpleasantly vivid or explicit"
+  ],
+  [
+    "malfeasance",
+    "wrongdoing"
+  ],
+  [
+    "malign",
+    "say something mean"
+  ],
+  [
+    "manumit",
+    "set free"
+  ],
+  [
+    "maudlin",
+    "drunkenly sappy or self pitying"
+  ],
+  [
+    "maxim",
+    "pithy saying"
+  ],
+  [
+    "melange",
+    "mixture"
+  ],
+  [
+    "mercurial",
+    "changeable"
+  ],
+  [
+    "meretricious",
+    "seemingly pretty but actually worthless / having to do with prostitution"
+  ],
+  [
+    "messianic",
+    "having to do with “the messiah”"
+  ],
+  [
+    "metastasize",
+    "spread to another part of the body"
+  ],
+  [
+    "mimetic",
+    "habitually copying"
+  ],
+  [
+    "mired",
+    "buried in mud"
+  ]
+]

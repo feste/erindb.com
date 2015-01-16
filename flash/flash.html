@@ -1,0 +1,46 @@
+---
+title: Flash
+layout: default
+---
+
+<!DOCTYPE html>
+
+<html>
+
+	<body>
+
+		<p id="word">{{}}</p>
+		<p id="def">{{}}</p>
+
+		<button id="showdef">show definition</button>
+		<button id="next">next</button>
+
+		<script src="underscore-min.js"></script>
+		<script src="underscore-min.map"></script>
+		<script src="jquery.js"></script>
+		<script src="defs.json"></script>
+		<script>
+			var defs = _.shuffle(defs);
+			$("#next").hide();
+			$("#def").hide();
+			function showword() {
+				var def = defs.pop();
+				$("#word").html(def[0]);
+				$("#def").html(def[1]);
+			}
+			$("#showdef").click(function() {
+				$("#showdef").hide();
+				$("#next").show();
+				$("#def").show();
+			})
+			showword();
+			$("#next").click(function() {
+				$("#showdef").show();
+				$("#next").hide();
+				$("#def").hide();
+				showword();
+			})
+		</script>
+
+	</body>
+</html>
