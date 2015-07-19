@@ -17,7 +17,7 @@ And the pool at the villas was gorgeous.
 
 <a href="pool.png"><img src="pool_small.png" display="inline"></a>
 
-We wandered around the Zona Romantica area on the first day. Here's a view of that central area.
+We wandered around the Zona Romantica area on a couple of the days. Here's a view of that central area.
 
 <iframe src="romantica.html" frameborder="0" height="300px" width="500px"></iframe>
 
@@ -29,17 +29,17 @@ Some beach pics from the Zona Romantica that day, selfies and tourist pics.
 <a href="danny-tourist1.png"><img src="danny-tourist1_small.png" display="inline"></a>
 <a href="danny-tourist2.png"><img src="danny-tourist2_small.png" display="inline"></a>
 
-Here are some paintings I want to copy.
-
-<a href="birds1.png"><img src="birds1_small.png" display="inline"></a>
-<a href="birds2.png"><img src="birds2_small.png" display="inline"></a>
-<a href="birds3.png"><img src="birds3_small.png" display="inline"></a>
-
 We saw the "Voladores de Papantla".
 
 Danny filmed them from the ground.
 
 <a href="danny-filming-voladores.png"><img src="danny-filming-voladores_small.png"></a>
+
+Here are some paintings we saw that day, that I want to copy.
+
+<a href="birds1.png"><img src="birds1_small.png" display="inline"></a>
+<a href="birds2.png"><img src="birds2_small.png" display="inline"></a>
+<a href="birds3.png"><img src="birds3_small.png" display="inline"></a>
 
 Our hotel was really nice! They didn't have our reservation at first, and our first room didn't get wifi service and our second room had a broken stove. But there was lots of greenery and food and animals and everyone was really nice.
 
