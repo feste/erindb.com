@@ -12,6 +12,7 @@ layout: default
 <textarea id="input" rows="10" cols="100"></textarea>
 
 <button id="munge" onclick="munge()">munge</button>
+<input type="checkbox" name="try_keep_some">try to identify some real line breaks</input>
 
 <p>Your cleaned-up text should show up below:</p>
 
@@ -26,15 +27,32 @@ function last(o) {
 
 function munge() {
 	var text = $("#input").val();
+	var try_keep_some = $('input[name=try_keep_some]').is(':checked');
+	var replacements = [
+		[String.fromCharCode(12), "fi"],
+		[String.fromCharCode(14), "ffi"],
+		["", ""],
+		["|", " — "],
+		[/[“”]/g, "\""],
+		[/[’]/g, "'"],
+		[/ +/g, " "]
+	];
+	for (var i=0; i<replacements.length; i++) {
+		var replacement = replacements[i];
+		text = text.replace(replacement[0], replacement[1]);
+	}
 	lines = text.split(/\r?\n/);
 	new_string = "";
 	for (var i=0; i<lines.length; i++) {
 		var line = lines[i];
-		line = line.replace(String.fromCharCode(12), "fi");
-		line = line.replace(String.fromCharCode(14), "ffi");
-		line = line.replace("|", " — ");
-		line = line.replace("  ", " ");
-		if (line.length < 3 & last(last(line)) != ".") {
+		if (line.split(" ").length < 3 & last(last(line)) != "." & /[A-Z]/.test(line[0]) & try_keep_some) {
+			new_string += "\n" + line + "\n";
+		} else if (line[0] == "." & i > 0) {
+			new_string = new_string.slice(0, new_string.length - 1) + line + " ";
+		} else if (line == String.fromCharCode(776)) {
+			new_string = new_string.slice(0, new_string.length - 1) + lines[i+1][0] + line;
+			lines[i+1] = lines[i+1].slice(1);
+		} else if (last(line) == "." & i < lines.length -1 & try_keep_some) {
 			new_string += line + "\n";
 		} else if (last(last(line)) == "-") {
 			new_string += line.slice(0, line.length -1);

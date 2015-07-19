@@ -11,3 +11,4 @@ Recommendations:
 Other:
 
 * [Scopone](scopone/scopone.html)
+* [Quotes](quotes/quotes.html)

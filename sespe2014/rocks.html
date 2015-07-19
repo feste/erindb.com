@@ -10,11 +10,11 @@
 <body>
 	<div id="sphere"></div>
 	<a href="http://thematicmapping.org/" target="parent" class="tm">
-		<img src="http://thematicmapping.org/img/thematicmapping.png">
+		<img src="../photosphere/thematicmapping.png">
 	</a>	
-	<script src="http://threejs.org/build/three.min.js"></script>
-	<script src="photosphere/js/OrbitControls.js"></script>	
-	<script src="photosphere/js/Detector.js"></script>		
+	<script src="../photosphere/three.min.js"></script>
+	<script src="../photosphere/js/OrbitControls.js"></script>	
+	<script src="../photosphere/js/Detector.js"></script>		
 	<script>
 
 		var webglEl = document.getElementById('sphere');
@@ -33,7 +33,7 @@
 		var sphere = new THREE.Mesh(
 			new THREE.SphereGeometry(100, 20, 20),
 			new THREE.MeshBasicMaterial({
-				map: THREE.ImageUtils.loadTexture('rocks.jpg')
+				map: THREE.ImageUtils.loadTexture('rocks_small.png')
 			})
 		);
 		sphere.scale.x = -1;
